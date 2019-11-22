@@ -936,3 +936,159 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.22-18.32.31:142][294]LogPlayLevel: Display: Destroying online subsystem :Context_6
 [2019.11.22-18.32.47:567][380]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={7FD1C51F-4929-8117-5911-B29F7E37AE9B}
 [2019.11.22-18.33.47:629][559]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={2A4C0053-45BE-B8E2-2C43-568D8C3BA58A}
+[2019.11.22-18.36.52:164][ 81]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.22-18.42.48:218][989]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.22-18.43.05:616][649]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2019.11.22-18.43.06:091][649]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2019.11.22-18.43.07:693][649]LogSlate: Took 0.019424 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.22-18.43.07:858][650]LogSlate: Took 0.018463 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.22-18.43.53:199][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.22-18.44.24:344][144]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.22-18.45.02:584][ 79]LogEditorTransaction: Undo Move Node
+[2019.11.22-18.45.19:240][481]LogEditorTransaction: Undo Move Node
+[2019.11.22-18.45.19:897][495]LogEditorTransaction: Undo Move Node
+[2019.11.22-18.46.15:241][817]LogEditorTransaction: Undo Create Pin Link
+[2019.11.22-18.46.15:974][834]LogEditorTransaction: Undo Create Pin Link
+[2019.11.22-18.47.43:755][931]LogUObjectHash: Compacting FUObjectHashTables data took   9.04ms
+[2019.11.22-18.47.44:230][931]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/ThirdPersonExampleMap_Auto1297DD3F546D6DBB2C7D61D986BDDA43D.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2019.11.22-18.47.44:236][931]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.578
+[2019.11.22-18.47.44:236][931]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.578
+[2019.11.22-18.47.44:239][931]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2019.11.22-18.47.44:301][931]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2019.11.22-18.47.44:301][931]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2019.11.22-18.47.44:398][931]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/ThirdPersonCharacter_Auto124B42445402192983DF95BB73F4366ED.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2019.11.22-18.47.44:399][931]LogFileHelpers: Auto-saving content packages took 0.161
+[2019.11.22-18.48.02:397][310]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.11.22-18.49.32:735][657]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.22-18.49.32:777][657]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.22-18.51.46:539][869]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.22-18.51.46:561][869]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.22-18.51.46:561][869]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.22-18.51.46:564][869]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2019.11.22-18.51.47:470][869]LogUObjectHash: Compacting FUObjectHashTables data took  10.85ms
+[2019.11.22-18.51.47:470][869]LogPlayLevel: PlayLevel: Blueprint regeneration took 908 ms (1 blueprints)
+[2019.11.22-18.51.47:470][869]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 22, 2019, 8:51:47 AM)
+[2019.11.22-18.51.47:471][869]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.11.22-18.51.47:501][869]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029016s)
+[2019.11.22-18.51.47:505][869]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.22-18.51.47:505][869]LogPlayLevel: PIE: World Init took: (0.004140s)
+[2019.11.22-18.51.47:505][869]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.033709s)
+[2019.11.22-18.51.47:604][869]LogUObjectHash: Compacting FUObjectHashTables data took   8.11ms
+[2019.11.22-18.51.47:617][869]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.22-18.51.47:662][869]LogInit: FAudioDevice initialized.
+[2019.11.22-18.51.47:672][869]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.22-18.51.47:678][869]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.11.22-13.51.47
+[2019.11.22-18.51.47:678][869]LogWorld: Bringing up level for play took: 0.005072
+[2019.11.22-18.51.47:679][869]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2019.11.22-18.51.47:682][869]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.559
+[2019.11.22-18.51.47:683][869]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.22-18.51.53:342][ 77]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.51.56:522][194]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.51.59:906][318]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.00:146][327]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.04:168][474]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.04:407][483]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.04:646][492]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.04:910][502]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.05:386][520]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.05:623][529]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.05:834][537]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.06:390][558]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.22-18.52.06:390][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.22-18.52.06:390][558]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.11.22-18.52.06:391][558]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.11.22-18.52.06:433][558]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.22-18.52.06:433][558]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.22-18.52.06:518][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.22-18.52.06:528][558]LogUObjectHash: Compacting FUObjectHashTables data took   8.55ms
+[2019.11.22-18.52.06:565][559]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.11.22-18.52.15:351][907]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.22-18.52.24:234][218]LogActorFactory: Actor Factory created 1M_Cube_Chamfer
+[2019.11.22-18.52.25:312][254]LogActorFactory: Actor Factory created 1M_Cube_Chamfer
+[2019.11.22-18.52.33:805][577]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.22-18.52.33:879][580]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.22-18.52.33:896][580]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.22-18.52.33:896][580]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.22-18.52.33:896][580]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 22, 2019, 8:52:33 AM)
+[2019.11.22-18.52.33:896][580]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.11.22-18.52.33:918][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021817s)
+[2019.11.22-18.52.33:923][580]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.22-18.52.33:924][580]LogPlayLevel: PIE: World Init took: (0.005167s)
+[2019.11.22-18.52.33:924][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.027371s)
+[2019.11.22-18.52.34:004][580]LogUObjectHash: Compacting FUObjectHashTables data took   5.73ms
+[2019.11.22-18.52.34:013][580]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.22-18.52.34:038][580]LogInit: FAudioDevice initialized.
+[2019.11.22-18.52.34:049][580]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.22-18.52.34:052][580]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.11.22-13.52.34
+[2019.11.22-18.52.34:052][580]LogWorld: Bringing up level for play took: 0.003092
+[2019.11.22-18.52.34:053][580]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2019.11.22-18.52.34:055][580]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.932
+[2019.11.22-18.52.34:055][580]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.22-18.52.37:030][687]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.39:207][766]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.41:850][862]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.43:354][918]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.22-18.52.43:354][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.22-18.52.43:354][918]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.11.22-18.52.43:354][918]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.11.22-18.52.43:394][918]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.22-18.52.43:394][918]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.22-18.52.43:489][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.22-18.52.43:499][918]LogUObjectHash: Compacting FUObjectHashTables data took   8.10ms
+[2019.11.22-18.52.43:530][919]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.11.22-18.52.44:635][963]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1M_Cube_Chamfer)
+[2019.11.22-18.52.47:728][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.22-18.52.47:804][ 82]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.22-18.52.47:830][ 82]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.22-18.52.47:830][ 82]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.22-18.52.47:831][ 82]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 22, 2019, 8:52:47 AM)
+[2019.11.22-18.52.47:831][ 82]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.11.22-18.52.47:851][ 82]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019176s)
+[2019.11.22-18.52.47:856][ 82]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.22-18.52.47:857][ 82]LogPlayLevel: PIE: World Init took: (0.005697s)
+[2019.11.22-18.52.47:857][ 82]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025469s)
+[2019.11.22-18.52.47:945][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   6.71ms
+[2019.11.22-18.52.47:957][ 82]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.22-18.52.47:990][ 82]LogInit: FAudioDevice initialized.
+[2019.11.22-18.52.48:001][ 82]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.22-18.52.48:005][ 82]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.11.22-13.52.48
+[2019.11.22-18.52.48:006][ 82]LogWorld: Bringing up level for play took: 0.003425
+[2019.11.22-18.52.48:006][ 82]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2019.11.22-18.52.48:010][ 82]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.886
+[2019.11.22-18.52.48:010][ 82]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.22-18.52.50:631][174]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.53:440][278]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.54:005][299]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.54:299][310]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.54:625][322]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.54:919][333]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.55:184][343]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.55:449][353]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.56:425][389]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.56:533][393]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.56:696][399]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.59:090][487]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.59:408][499]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.52.59:648][508]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.53.00:875][554]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.53.01:729][586]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.53.02:315][608]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.11.22-18.53.03:355][647]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.22-18.53.03:356][647]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.22-18.53.03:356][647]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.11.22-18.53.03:358][647]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.11.22-18.53.03:402][647]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.22-18.53.03:402][647]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.22-18.53.03:491][647]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.22-18.53.03:503][647]LogUObjectHash: Compacting FUObjectHashTables data took   8.60ms
+[2019.11.22-18.53.03:542][648]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.11.22-18.53.05:846][721]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.22-18.58.29:529][511]LogUObjectHash: Compacting FUObjectHashTables data took   5.67ms
+[2019.11.22-18.58.29:905][511]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/ThirdPersonExampleMap_Auto24AD5096F4EF1350DD1354EA32B7D1BA9.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2019.11.22-18.58.29:909][511]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.429
+[2019.11.22-18.58.29:909][511]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.429
+[2019.11.22-18.58.29:911][511]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2019.11.22-18.58.30:019][511]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2019.11.22-18.58.30:019][511]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2019.11.22-18.58.30:102][511]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/ThirdPersonCharacter_Auto2859530EC492E24A94C2A88A9C3F721BD.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto2.uasset'
+[2019.11.22-18.58.30:104][511]LogFileHelpers: Auto-saving content packages took 0.193
