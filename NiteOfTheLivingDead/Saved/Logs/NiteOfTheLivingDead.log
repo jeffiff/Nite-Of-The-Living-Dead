@@ -2077,3 +2077,50 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.17-18.13.27:140][636]LogFileHelpers: Auto-saving content packages took 0.177
 [2020.01.17-18.13.28:530][667]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2020.01.17-18.13.33:253][757]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.17-18.23.27:344][434]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2020.01.17-18.23.27:670][434]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/ThirdPersonExampleMap_Auto1D7B7CB35418E9922FF12C49C1BEC21CF.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2020.01.17-18.23.27:676][434]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.377
+[2020.01.17-18.23.27:676][434]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.377
+[2020.01.17-18.23.27:678][434]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2020.01.17-18.23.27:793][434]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2020.01.17-18.23.27:794][434]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2020.01.17-18.23.27:859][434]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/ThirdPersonCharacter_Auto16F0E18CA46EB2F3D47EBD891EE1F9A6C.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2020.01.17-18.23.27:860][434]LogFileHelpers: Auto-saving content packages took 0.183
+[2020.01.17-18.25.00:017][749]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.17-18.25.09:581][923]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.17-18.25.21:631][ 88]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.17-18.26.59:220][861]LogEditorTransaction: Undo Modify Component(s)
+[2020.01.17-18.28.15:068][175]LogEditorTransaction: Undo Modify Component(s)
+[2020.01.17-18.28.15:349][177]LogEditorTransaction: Undo Modify Component(s)
+[2020.01.17-18.28.15:630][179]LogEditorTransaction: Undo Modify Component(s)
+[2020.01.17-18.28.15:919][182]LogEditorTransaction: Undo Modify Component(s)
+[2020.01.17-18.28.16:171][187]LogEditorTransaction: Undo Modify Component(s)
+[2020.01.17-18.28.16:476][193]LogEditorTransaction: Undo Modify Component(s)
+[2020.01.17-18.28.16:783][199]LogEditorTransaction: Undo Modify Component(s)
+[2020.01.17-18.28.17:056][204]LogEditorTransaction: Undo Modify Component(s)
+[2020.01.17-18.28.17:319][209]LogEditorTransaction: Undo Modify Component(s)
+[2020.01.17-18.28.17:583][214]LogEditorTransaction: Undo Modify Component(s)
+[2020.01.17-18.28.17:852][219]LogEditorTransaction: Undo Modify Component(s)
+[2020.01.17-18.28.18:118][224]LogEditorTransaction: Undo Modify Component(s)
+[2020.01.17-18.28.18:422][230]LogEditorTransaction: Undo Modify Component(s)
+[2020.01.17-18.28.18:731][236]LogEditorTransaction: Undo Modify Component(s)
+[2020.01.17-18.28.19:041][242]LogEditorTransaction: Undo Replace component used material
+[2020.01.17-18.28.19:630][253]LogEditorTransaction: Undo Replace component used material
+[2020.01.17-18.28.20:443][270]LogEditorTransaction: Undo Modify Component(s)
+[2020.01.17-18.28.26:392][384]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.17-18.28.32:354][468]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.17-18.28.43:715][673]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.17-18.33.28:143][807]LogUObjectHash: Compacting FUObjectHashTables data took   5.75ms
+[2020.01.17-18.33.28:649][807]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/ThirdPersonExampleMap_Auto280810BC340610949891415B9DD75A41A.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2020.01.17-18.33.28:655][807]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.600
+[2020.01.17-18.33.28:655][807]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.600
+[2020.01.17-18.33.28:660][807]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2020.01.17-18.33.28:702][807]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2020.01.17-18.33.28:702][807]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2020.01.17-18.33.28:811][807]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/ThirdPersonCharacter_Auto2832E321C4A665A3B24A76A88F1B92E90.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto2.uasset'
+[2020.01.17-18.33.28:814][807]LogFileHelpers: Auto-saving content packages took 0.155
+[2020.01.17-18.33.35:533][945]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.17-18.33.40:581][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.17-18.33.40:673][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   9.17ms
+[2020.01.17-18.33.41:221][ 64]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/ThirdPersonExampleMap6ED5FE2C485A874772FC898A5FE6B0E8.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.01.17-18.33.42:261][ 64]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/ThirdPersonExampleMap_BuiltDataA03E0A484FD073584F1200B4C7D3CCDB.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
