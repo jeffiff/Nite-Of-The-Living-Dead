@@ -2124,3 +2124,84 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.17-18.33.40:673][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   9.17ms
 [2020.01.17-18.33.41:221][ 64]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/ThirdPersonExampleMap6ED5FE2C485A874772FC898A5FE6B0E8.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
 [2020.01.17-18.33.42:261][ 64]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/ThirdPersonExampleMap_BuiltDataA03E0A484FD073584F1200B4C7D3CCDB.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.01.17-18.37.55:164][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.17-18.37.55:247][ 70]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.17-18.37.55:290][ 70]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.17-18.37.55:290][ 70]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.01.17-18.37.55:294][ 70]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2020.01.17-18.37.56:153][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   6.35ms
+[2020.01.17-18.37.56:153][ 70]LogPlayLevel: PlayLevel: Blueprint regeneration took 863 ms (1 blueprints)
+[2020.01.17-18.37.56:154][ 70]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 17, 2020, 8:37:56 AM)
+[2020.01.17-18.37.56:154][ 70]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.17-18.37.56:183][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028641s)
+[2020.01.17-18.37.56:186][ 70]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.01.17-18.37.56:187][ 70]LogPlayLevel: PIE: World Init took: (0.003557s)
+[2020.01.17-18.37.56:187][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.032565s)
+[2020.01.17-18.37.56:250][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2020.01.17-18.37.56:262][ 70]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.17-18.37.56:289][ 70]LogInit: FAudioDevice initialized.
+[2020.01.17-18.37.56:305][ 70]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.01.17-18.37.56:309][ 70]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.01.17-13.37.56
+[2020.01.17-18.37.56:309][ 70]LogWorld: Bringing up level for play took: 0.003224
+[2020.01.17-18.37.56:309][ 70]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.01.17-18.37.56:314][ 70]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.268
+[2020.01.17-18.37.56:314][ 70]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.17-18.38.38:936][488]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.17-18.38.38:938][488]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.17-18.38.38:938][488]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.17-18.38.38:939][488]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.01.17-18.38.38:990][488]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.17-18.38.38:990][488]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.17-18.38.39:069][488]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.17-18.38.39:076][488]LogUObjectHash: Compacting FUObjectHashTables data took   4.65ms
+[2020.01.17-18.38.39:166][489]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.01.17-18.38.39:844][512]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.17-18.38.41:827][583]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.17-18.38.45:860][725]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2020.01.17-18.38.45:860][725]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2020.01.17-18.38.45:861][725]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2020.01.17-18.38.45:861][725]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2020.01.17-18.38.45:861][725]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2020.01.17-18.38.45:861][725]LogWindows: Warning: URL: C:\Users\IanStJohn\AppData\Local/Programs/Git/cmd/git.exe version
+[2020.01.17-18.38.45:862][725]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2020.01.17-18.38.45:862][725]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2020.01.17-18.38.45:862][725]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2020.01.17-18.38.45:862][725]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2020.01.17-18.38.45:863][725]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2020.01.17-18.38.45:863][725]LogWindows: Warning: URL: C:\Users\IanStJohn\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2020.01.17-18.38.45:863][725]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2020.01.17-18.38.45:863][725]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2020.01.17-18.43.51:733][924]LogWindows: Warning: CreateProc failed: Access is denied. (0x00000005)
+[2020.01.17-18.43.51:733][924]LogWindows: Warning: URL: C:/UE_4.23/Engine/Binaries/Win64/ version
+[2020.01.17-18.43.56:578][993]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.17-18.44.00:564][112]LogWindows: Warning: CreateProc failed: Access is denied. (0x00000005)
+[2020.01.17-18.44.00:564][112]LogWindows: Warning: URL: C:/UE_4.23/Engine/Binaries/Win64/ version
+[2020.01.17-18.44.00:564][112]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2020.01.17-18.44.47:080][515]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2020.01.17-18.44.47:377][515]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/ThirdPersonExampleMap_Auto3F5FED3F94E4F3440A144969DD9AD077C.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2020.01.17-18.44.47:381][515]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.348
+[2020.01.17-18.44.47:381][515]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.348
+[2020.01.17-18.44.51:446][642]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.17-18.45.02:534][704]SourceControl: Source control is disabled
+[2020.01.17-18.45.02:534][704]LogSlate: Window 'Source Control Login' being destroyed
+[2020.01.17-18.45.05:618][801]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.17-18.45.06:847][844]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.17-18.45.07:679][875]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.17-18.53.08:474][227]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2020.01.17-18.53.25:698][470]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2020.01.17-18.54.46:868][600]LogSlate: Window 'Source Control Login' being destroyed
+[2020.01.17-18.54.52:607][813]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.17-18.54.55:576][924]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.01.17-19.04.51:744][493]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.17-19.09.36:478][823]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2020.01.17-19.09.36:759][823]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/ThirdPersonExampleMapDE16853D4902322E2F4E7CAC35BBCDB4.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.01.17-19.09.36:811][823]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.387
+[2020.01.17-19.09.37:072][823]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/ThirdPersonCharacter039CFB114632B52082C1DE8A1FAE1069.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.01.17-19.09.37:144][823]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/CubeMaterial91BDE21F41C94EB2AA2904899B228CA0.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Content/Geometry/Meshes/CubeMaterial.uasset'
+[2020.01.17-19.09.37:195][823]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/M_Tech_Hex_Tile55FD586C4F91125FDC89468521D48F0D.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset'
+[2020.01.17-19.09.37:239][823]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/M_ShelfA0FB67334919EB09E33E13A547DC0DE4.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Content/StarterContent/Props/Materials/M_Shelf.uasset'
+[2020.01.17-19.09.37:285][823]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/M_LampA00F4DFB4436691368F3D5801E2C3DBF.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Content/StarterContent/Props/Materials/M_Lamp.uasset'
+[2020.01.17-19.09.37:327][823]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/M_AssetPlatform7B99A7824252E4FC380AC6A79D338FCA.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Content/StarterContent/Materials/M_AssetPlatform.uasset'
+[2020.01.17-19.09.37:381][823]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/M_Brick_Cut_StoneF2BFC7554C7CB1CDBAA8E1B162ADD01F.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset'
+[2020.01.17-19.09.37:628][823]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/M_Water_Ocean0EF4B50E40B2C6A6A114A08A8BE113D2.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Content/StarterContent/Materials/M_Water_Ocean.uasset'
+[2020.01.17-19.09.37:693][823]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/M_Water_LakeF1E529254E89E5F81261E3B9B08EEB48.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Content/StarterContent/Materials/M_Water_Lake.uasset'
