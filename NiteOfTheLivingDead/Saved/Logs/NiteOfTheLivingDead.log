@@ -619,3 +619,18 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.24-14.58.57:151][255]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewBlueprint]
 [2020.01.24-14.58.57:268][255]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/NewBlueprint_Auto5DC7B8A91407B2585CB4AB7B7E0D8F4D7.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/Autosaves/Game/NewBlueprint_Auto5.uasset'
 [2020.01.24-14.58.57:294][255]LogFileHelpers: Auto-saving content packages took 0.144
+[2020.01.24-15.31.39:394][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.24-15.31.46:051][458]SourceControl: fatal: C:/UE_4.23/Engine/Content: 'C:/UE_4.23/Engine/Content' is outside repository
+[2020.01.24-15.31.46:240][458]EditorErrors: Warning: No assets to check in!
+[2020.01.24-15.31.48:030][526]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.24-15.32.27:574][527]LogSlate: Window 'Message Log' being destroyed
+[2020.01.24-15.32.27:585][527]LogSlate: Window 'Message Log' being destroyed
+[2020.01.24-15.32.29:855][585]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.24-15.32.31:327][666]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.24-15.32.31:632][666]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.24-15.32.31:793][666]LogUObjectHash: Compacting FUObjectHashTables data took   8.42ms
+[2020.01.24-15.32.32:314][666]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/ThirdPersonExampleMapE42E15EC4DCED9518D93ACB12E3D3C0C.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.01.24-15.32.32:517][666]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.868
+[2020.01.24-15.32.32:663][666]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/ThirdPersonCharacterAF679FCB4D35488AE265C59D9B7D5F2A.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.01.24-15.32.32:682][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewBlueprint" FILE="../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Content/NewBlueprint.uasset" SILENT=true
+[2020.01.24-15.32.32:712][666]LogSavePackage: Moving '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Saved/NewBlueprint811D80BF47263BD214BD579A0B54D7E2.tmp' to '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/Content/NewBlueprint.uasset'
