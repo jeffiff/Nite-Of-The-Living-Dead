@@ -1,4 +1,4 @@
-﻿Log file open, 01/31/20 08:43:05
+﻿Log file open, 01/31/20 13:47:21
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: NiteOfTheLivingDead
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.090701
+LogStats: Stats thread started at 0.097949
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -157,693 +157,414 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.01.31-13.43.05:526][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.01.31-13.43.05:526][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Engine.ini]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Engine.ini]
-[2020.01.31-13.43.05:527][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Engine.ini]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Engine.ini]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.01.31-13.43.05:527][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Engine.ini]
-[2020.01.31-13.43.05:527][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Engine.ini]
-[2020.01.31-13.43.05:529][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.01.31-13.43.05:530][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
-[2020.01.31-13.43.05:530][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.01.31-13.43.05:531][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.01.31-13.43.05:531][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.01.31-13.43.05:531][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.01.31-13.43.05:531][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.01.31-13.43.05:531][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.01.31-13.43.05:531][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.01.31-13.43.05:531][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.01.31-13.43.05:531][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
-[2020.01.31-13.43.05:531][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.01.31-13.43.05:531][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.01.31-13.43.05:531][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.01.31-13.43.05:531][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.01.31-13.43.05:531][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.01.31-13.43.05:531][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.01.31-13.43.05:531][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.01.31-13.43.05:531][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.01.31-13.43.05:531][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.01.31-13.43.05:531][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.01.31-13.43.05:531][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.01.31-13.43.05:531][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.01.31-13.43.05:531][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.01.31-13.43.05:531][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
-[2020.01.31-13.43.05:531][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.01.31-13.43.05:531][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.01.31-13.43.05:531][  0]LogInit: Selected Device Profile: [Windows]
-[2020.01.31-13.43.05:531][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.01.31-13.43.05:535][  0]LogHAL: Display: Platform has ~ 8 GB [8399994880 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.01.31-13.43.05:535][  0]LogInit: Going up to parent DeviceProfile []
-[2020.01.31-13.43.05:535][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.01.31-13.43.05:535][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.01.31-13.43.05:536][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Engine.ini]
-[2020.01.31-13.43.05:537][  0]LogInit: Computer: BA-PK1216R
-[2020.01.31-13.43.05:537][  0]LogInit: User: IanStJohn
-[2020.01.31-13.43.05:537][  0]LogInit: CPU Page size=4096, Cores=2
-[2020.01.31-13.43.05:537][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.01.31-13.43.05:537][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
-[2020.01.31-13.43.05:537][  0]LogMemory: Platform Memory Stats for Windows
-[2020.01.31-13.43.05:537][  0]LogMemory: Process Physical Memory: 101.11 MB used, 101.11 MB peak
-[2020.01.31-13.43.05:537][  0]LogMemory: Process Virtual Memory: 99.68 MB used, 99.68 MB peak
-[2020.01.31-13.43.05:537][  0]LogMemory: Physical Memory: 6856.11 MB used,  1154.75 MB free, 8010.86 MB total
-[2020.01.31-13.43.05:537][  0]LogMemory: Virtual Memory: 4651.56 MB used,  134213080.00 MB free, 134217728.00 MB total
-[2020.01.31-13.43.05:539][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.01.31-13.43.05:563][  0]LogInit: Using OS detected language (en-US).
-[2020.01.31-13.43.05:563][  0]LogInit: Using OS detected locale (en-US).
-[2020.01.31-13.43.05:564][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.01.31-13.43.05:778][  0]LogInit: Setting process to per monitor DPI aware
-[2020.01.31-13.43.05:831][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.01.31-13.43.05:831][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.01.31-13.43.06:040][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.01.31-13.43.06:041][  0]LogD3D11RHI: D3D11 adapters:
-[2020.01.31-13.43.06:122][  0]LogD3D11RHI:    0. 'NVIDIA NVS 5400M' (Feature Level 11_0)
-[2020.01.31-13.43.06:122][  0]LogD3D11RHI:       979/0/4005 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.01.31-13.43.06:129][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
-[2020.01.31-13.43.06:129][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.01.31-13.43.06:134][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.01.31-13.43.06:134][  0]LogD3D11RHI:       0/0/4005 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.01.31-13.43.06:134][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.01.31-13.43.06:160][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.01.31-13.43.06:160][  0]LogD3D11RHI:     GPU DeviceId: 0xdef (for the marketing name, search the web for "GPU Device Id")
-[2020.01.31-13.43.06:160][  0]LogWindows: EnumDisplayDevices:
-[2020.01.31-13.43.06:160][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
-[2020.01.31-13.43.06:161][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2020.01.31-13.43.06:161][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2020.01.31-13.43.06:161][  0]LogWindows:    3. 'NVIDIA NVS 5400M' (P:0 D:0)
-[2020.01.31-13.43.06:162][  0]LogWindows:    4. 'NVIDIA NVS 5400M' (P:0 D:0)
-[2020.01.31-13.43.06:162][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
-[2020.01.31-13.43.06:162][  0]LogD3D11RHI:     Adapter Name: NVIDIA NVS 5400M
-[2020.01.31-13.43.06:162][  0]LogD3D11RHI:   Driver Version: 389.08 (internal:23.21.13.8908, unified:389.08)
-[2020.01.31-13.43.06:162][  0]LogD3D11RHI:      Driver Date: 2-27-2018
-[2020.01.31-13.43.06:162][  0]LogRHI: Texture pool is 685 MB (70% of 979 MB)
-[2020.01.31-13.43.06:210][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
-[2020.01.31-13.43.06:210][  0]LogD3D11RHI: Async texture creation enabled
-[2020.01.31-13.43.06:225][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.01.31-13.43.07:013][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2020.01.31-13.43.07:025][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2020.01.31-13.43.07:036][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2020.01.31-13.43.07:047][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2020.01.31-13.43.07:058][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2020.01.31-13.43.07:069][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2020.01.31-13.43.07:080][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2020.01.31-13.43.07:091][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2020.01.31-13.43.07:097][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2020.01.31-13.43.07:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2020.01.31-13.43.07:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2020.01.31-13.43.07:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2020.01.31-13.43.07:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2020.01.31-13.43.07:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2020.01.31-13.43.07:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2020.01.31-13.43.07:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2020.01.31-13.43.07:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2020.01.31-13.43.07:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2020.01.31-13.43.07:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2020.01.31-13.43.07:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2020.01.31-13.43.07:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2020.01.31-13.43.07:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2020.01.31-13.43.07:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2020.01.31-13.43.07:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2020.01.31-13.43.07:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2020.01.31-13.43.07:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2020.01.31-13.43.07:139][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2020.01.31-13.43.07:141][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2020.01.31-13.43.07:163][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2020.01.31-13.43.07:163][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2020.01.31-13.43.07:180][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2020.01.31-13.43.07:180][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2020.01.31-13.43.07:189][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2020.01.31-13.43.07:197][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2020.01.31-13.43.07:206][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2020.01.31-13.43.07:216][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2020.01.31-13.43.07:246][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2020.01.31-13.43.07:246][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2020.01.31-13.43.07:246][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.01.31-13.43.07:258][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.01.31-13.43.07:322][  0]LogShaderCompilers: Guid format shader working directory is -58 characters bigger than the processId version (../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Intermediate/Shaders/WorkingDirectory/9624/).
-[2020.01.31-13.43.07:322][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/IanStJohn/AppData/Local/Temp/UnrealShaderWorkingDir/B769AE3A4BA8F976BF7EFD82373F259C/'.
-[2020.01.31-13.43.07:326][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.01.31-13.43.07:326][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.01.31-13.43.07:326][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.01.31-13.43.08:052][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.01.31-13.43.08:126][  0]LogDerivedDataCache: Loaded boot cache 0.07s 73MB C:/Users/IanStJohn/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2020.01.31-13.43.08:126][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/IanStJohn/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2020.01.31-13.43.08:126][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.01.31-13.43.08:126][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.01.31-13.43.08:127][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.01.31-13.43.08:127][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.01.31-13.43.08:142][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.01.31-13.43.08:142][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.01.31-13.43.08:143][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.01.31-13.43.08:144][  0]LogDerivedDataCache: Using Local data cache path C:/Users/IanStJohn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.01.31-13.43.08:144][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.01.31-13.43.08:144][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.01.31-13.43.08:180][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.01.31-13.43.08:183][  0]LogSlate: Using FreeType 2.6.0
-[2020.01.31-13.43.08:183][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.01.31-13.43.08:248][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
-[2020.01.31-13.43.08:617][  0]LogInit: Selected Device Profile: [Windows]
-[2020.01.31-13.43.08:805][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.01.31-13.43.08:805][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.01.31-13.43.08:805][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.01.31-13.43.08:805][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.01.31-13.43.08:805][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.01.31-13.43.08:817][  0]LogNetVersion: NiteOfTheLivingDead 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 3089816996)
-[2020.01.31-13.43.09:454][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.168521 seconds
-[2020.01.31-13.43.09:463][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2020.01.31-13.43.09:463][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2020.01.31-13.43.09:463][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.01.31-13.43.10:538][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.01.31-13.43.10:541][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.01.31-13.43.10:611][  0]SourceControl: Source control is disabled
-[2020.01.31-13.43.10:611][  0]SourceControl: Source control is disabled
-[2020.01.31-13.43.10:613][  0]SourceControl: Source control is disabled
-[2020.01.31-13.43.10:614][  0]SourceControl: Source control is disabled
-[2020.01.31-13.43.10:728][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.01.31-13.43.10:858][  0]LogOcInput: OculusInput pre-init called
-[2020.01.31-13.43.10:870][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.01.31-13.43.10:870][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.01.31-13.43.11:615][  0]LogEngine: Initializing Engine...
-[2020.01.31-13.43.11:617][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.01.31-13.43.11:618][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.01.31-13.43.11:939][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.01.31-13.43.11:965][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.01.31-13.43.11:982][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.01.31-13.43.12:006][  0]LogInit: FAudioDevice initialized.
-[2020.01.31-13.43.12:006][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.01.31-13.43.13:841][  0]LogDerivedDataCache: Saved boot cache 1.83s 73MB C:/Users/IanStJohn/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2020.01.31-13.43.13:849][  0]LogInit: Texture streaming: Enabled
-[2020.01.31-13.43.13:873][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.01.31-13.43.13:873][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.01.31-13.43.13:937][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.01.31-13.43.14:200][  0]LogInit: Transaction tracking system initialized
-[2020.01.31-13.43.14:243][  0]BlueprintLog: New page: Editor Load
-[2020.01.31-13.43.14:360][  0]LocalizationService: Localization service is disabled
-[2020.01.31-13.43.15:843][  0]LogFileCache: Scanning file cache for directory 'C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Content/' took 0.02s
-[2020.01.31-13.43.15:843][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.01.31-13.43.15:843][  0]LogCook: Display: Mobile HDR setting 1
-[2020.01.31-13.43.16:092][  0]SourceControl: Source control is disabled
-[2020.01.31-13.43.16:575][  0]LightingResults: New page: Lighting Build
-[2020.01.31-13.43.16:579][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.01.31-13.43.16:579][  0]MapCheck: New page: Map Check
-[2020.01.31-13.43.16:579][  0]LightingResults: New page: Lighting Build
-[2020.01.31-13.43.16:607][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
-[2020.01.31-13.43.36:987][  0]LogClass: Warning: Enum '/Game/InventorySystem/Blueprints/Inventory/EquipmentSlots.EquipmentSlots' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2020.01.31-13.43.37:765][  0]LogClass: Warning: Enum '/Game/InventorySystem/Blueprints/Inventory/ItemQuality.ItemQuality' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2020.01.31-13.43.38:361][  0]LogClass: Warning: Enum '/Game/InventorySystem/Blueprints/Inventory/EquipmentType.EquipmentType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2020.01.31-13.43.47:619][  0]LogClass: Warning: Enum '/Game/InventorySystem/Blueprints/Inventory/ItemType.ItemType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2020.01.31-13.43.47:807][  0]LogBlueprint: Warning: [Compiler InventoryManagerComponent] Add Torque : Usage of 'Add Torque' has been deprecated. Use AddTorqueInRadians instead
-[2020.01.31-13.43.48:270][  0]LogLinker: Warning: While loading '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
-[2020.01.31-13.43.48:270][  0]LogLinker: Warning: While loading '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
-[2020.01.31-13.43.48:690][  0]LogLinker: Warning: While loading '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
-[2020.01.31-13.43.48:691][  0]LogLinker: Warning: While loading '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
-[2020.01.31-13.43.48:698][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
-[2020.01.31-13.43.48:698][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
-[2020.01.31-13.43.48:699][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
-[2020.01.31-13.43.48:699][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
-[2020.01.31-13.43.50:566][  0]LogLinker: Warning: While loading '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
-[2020.01.31-13.43.50:566][  0]LoadErrors: Failed to load /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenced by PersistentLevel
-[2020.01.31-13.43.50:566][  0]LogLinker: Warning: While loading '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
-[2020.01.31-13.43.50:566][  0]LoadErrors: Failed to load /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenced by PersistentLevel
-[2020.01.31-13.43.59:143][  0]LogClass: Warning: Enum '/Game/InventorySystem/Blueprints/Demo/Classes.Classes' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2020.01.31-13.44.01:230][  0]LogClass: Warning: Enum '/Game/InventorySystem/Blueprints/Inventory/EquipmentSlotType.EquipmentSlotType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2020.01.31-13.44.03:582][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.01.31-13.44.03:750][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.01.31-13.44.03:799][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
-[2020.01.31-13.44.03:799][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.01.31-13.44.03:799][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.211ms to complete.
-[2020.01.31-13.44.03:799][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 47.707
-[2020.01.31-13.44.04:805][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.31-13.44.04:826][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.31-13.44.04:840][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.31-13.44.04:851][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.31-13.44.04:905][  0]LogCollectionManager: Loaded 0 collections in 0.003639 seconds
-[2020.01.31-13.44.04:966][  0]LogFileCache: Scanning file cache for directory 'C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Collections/' took 0.00s
-[2020.01.31-13.44.04:967][  0]LogFileCache: Scanning file cache for directory 'C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Content/Developers/IanStJohn/Collections/' took 0.00s
-[2020.01.31-13.44.04:967][  0]LogFileCache: Scanning file cache for directory 'C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Content/Collections/' took 0.00s
-[2020.01.31-13.44.04:967][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2020.01.31-13.44.04:979][  0]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 2864 classes and 682 folders.
-[2020.01.31-13.44.05:082][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2020.01.31-13.44.06:993][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2020.01.31-13.44.07:224][  0]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.01.31-13.44.07:294][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.01.31-13.44.07:394][  0]LogSlate: Took 0.081692 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.01.31-13.44.07:908][  0]LogRenderer: Reallocating scene render targets to support 896x504 Format 10 NumSamples 1 (Frame:1).
-[2020.01.31-13.44.08:459][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2020.01.31-13.44.08:459][  0]LogLoad: (Engine Initialization) Total time: 64.96 seconds
-[2020.01.31-13.44.08:459][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.01.31-13.44.08:624][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.01.31-13.44.08:626][  0]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2020.01.31-13.44.08:798][  0]LogSlate: Took 0.049356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.01.31-13.44.09:972][ 14]LogAssetRegistry: Asset discovery search completed in 61.7255 seconds
-[2020.01.31-13.44.09:977][ 14]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
-[2020.01.31-13.44.09:977][ 14]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000076 seconds (updated 0 objects)
-[2020.01.31-13.45.08:480][512]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={DC83DED4-4295-81EB-522A-79AD0AA27930}
-[2020.01.31-13.53.05:167][286]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={7F61FCC9-403B-2C9F-758E-29AF17011024}
-[2020.01.31-13.53.23:288][341]LogSlate: Window 'Message Log' being destroyed
-[2020.01.31-13.53.23:294][341]LogSlate: Window 'Message Log' being destroyed
-[2020.01.31-13.53.32:883][743]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.31-13.53.32:983][749]LogTemp: Repeating last play command: Selected Viewport
-[2020.01.31-13.53.33:053][749]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.01.31-13.53.33:069][749]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.01.31-13.53.33:132][749]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 31, 2020, 3:53:33 AM)
-[2020.01.31-13.53.33:159][749]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2020.01.31-13.53.33:232][749]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2020.01.31-13.53.33:282][749]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049692s)
-[2020.01.31-13.53.33:294][749]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.01.31-13.53.33:331][749]LogPlayLevel: PIE: World Init took: (0.048753s)
-[2020.01.31-13.53.33:331][749]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.098884s)
-[2020.01.31-13.53.33:357][749]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
-[2020.01.31-13.53.33:498][749]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.01.31-13.53.33:518][749]LogInit: FAudioDevice initialized.
-[2020.01.31-13.53.33:622][749]LogLoad: Game class is 'InventoryGameMode_C'
-[2020.01.31-13.53.33:649][749]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.01.31-08.53.33
-[2020.01.31-13.53.33:734][749]LogWorld: Bringing up level for play took: 0.086405
-[2020.01.31-13.53.33:748][749]LogOnline: OSS: Creating online subsystem instance for: :Context_1
-[2020.01.31-13.53.33:885][749]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 20 classes and 0 folders.
-[2020.01.31-13.53.33:886][749]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2020.01.31-13.53.33:886][749]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2020.01.31-13.53.33:886][749]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2020.01.31-13.53.34:240][749]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2020.01.31-13.53.34:256][749]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.288
-[2020.01.31-13.53.34:256][749]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.01.31-13.53.34:830][753]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Mannequin_Skeleton, removing AnimBP from actor.
-[2020.01.31-13.53.34:831][753]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Mannequin_Skeleton, removing AnimBP from actor.
-[2020.01.31-13.53.34:832][753]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Equip_Ring_Skeleton, removing AnimBP from actor.
-[2020.01.31-13.53.34:832][753]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Equip_Ring_Skeleton, removing AnimBP from actor.
-[2020.01.31-13.53.34:833][753]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Weapon_Bone_Dagger_Skeleton, removing AnimBP from actor.
-[2020.01.31-13.53.54:789][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.31-13.54.25:880][545]LogBlueprintUserMessages: [InventoryPlayerController_C_0] YOU ARE TOO SICK TO EAT
-[2020.01.31-13.54.43:255][151]LogBlueprintUserMessages: [InventoryPlayerController_C_0] YOU ARE TOO SICK TO EAT
-[2020.01.31-13.54.44:302][187]LogBlueprintUserMessages: [InventoryPlayerController_C_0] YOU ARE NO LONGER POISONED
-[2020.01.31-13.56.10:270][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.31-13.56.10:551][176]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUDLayout_C_0.WidgetTree_0.Player' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2020.01.31-13.56.13:671][287]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUDLayout_C_0.WidgetTree_0.Player' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2020.01.31-13.56.18:248][450]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUDLayout_C_0.WidgetTree_0.Player' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2020.01.31-13.57.03:007][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.31-13.57.07:754][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.31-13.57.21:618][663]LogBlueprintUserMessages: [InventoryManagerComponent] ITEM CAN NOT BE EQUIPPED IN THAT SLOT
-[2020.01.31-13.58.15:423][562]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUDLayout_C_0.WidgetTree_0.Inventory.WidgetTree_0.Equipment' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2020.01.31-13.58.17:373][631]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUDLayout_C_0.WidgetTree_0.Inventory.WidgetTree_0.Equipment' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2020.01.31-13.58.32:241][154]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.01.31-13.58.32:244][154]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.31-13.58.32:244][154]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2020.01.31-13.58.32:245][154]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2020.01.31-13.58.32:270][154]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.01.31-13.58.32:271][154]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.01.31-13.58.32:358][154]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.31-13.58.32:370][154]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
-[2020.01.31-13.58.32:438][155]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2020.01.31-13.58.33:202][197]LogTemp: Repeating last play command: Selected Viewport
-[2020.01.31-13.58.33:225][197]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.01.31-13.58.33:225][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.01.31-13.58.33:225][197]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 31, 2020, 3:58:33 AM)
-[2020.01.31-13.58.33:225][197]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2020.01.31-13.58.33:243][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017288s)
-[2020.01.31-13.58.33:245][197]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.01.31-13.58.33:257][197]LogPlayLevel: PIE: World Init took: (0.014617s)
-[2020.01.31-13.58.33:257][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.032144s)
-[2020.01.31-13.58.33:295][197]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
-[2020.01.31-13.58.33:305][197]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.01.31-13.58.33:327][197]LogInit: FAudioDevice initialized.
-[2020.01.31-13.58.33:345][197]LogLoad: Game class is 'InventoryGameMode_C'
-[2020.01.31-13.58.33:347][197]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.01.31-08.58.33
-[2020.01.31-13.58.33:348][197]LogWorld: Bringing up level for play took: 0.002087
-[2020.01.31-13.58.33:348][197]LogOnline: OSS: Creating online subsystem instance for: :Context_2
-[2020.01.31-13.58.33:350][197]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2020.01.31-13.58.33:350][197]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2020.01.31-13.58.33:350][197]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2020.01.31-13.58.33:379][197]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2020.01.31-13.58.33:379][197]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.589
-[2020.01.31-13.58.33:379][197]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.01.31-13.58.33:687][206]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Mannequin_Skeleton, removing AnimBP from actor.
-[2020.01.31-13.58.33:689][206]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Mannequin_Skeleton, removing AnimBP from actor.
-[2020.01.31-13.58.33:689][206]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Equip_Ring_Skeleton, removing AnimBP from actor.
-[2020.01.31-13.58.33:689][206]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Equip_Ring_Skeleton, removing AnimBP from actor.
-[2020.01.31-13.58.33:689][206]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton SK_Weapon_Bone_Dagger_Skeleton, removing AnimBP from actor.
-[2020.01.31-13.58.42:509][521]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.31-13.58.45:935][643]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.01.31-13.58.45:938][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.31-13.58.45:938][643]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2020.01.31-13.58.45:939][643]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2020.01.31-13.58.45:976][643]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.01.31-13.58.45:976][643]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.01.31-13.58.46:030][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.31-13.58.46:038][643]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
-[2020.01.31-13.58.46:071][644]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2020.01.31-13.58.55:173][ 20]Cmd: SELECT NONE
-[2020.01.31-13.58.58:939][202]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.31-13.59.01:198][329]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.01.31-13.59.02:183][329]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
-[2020.01.31-13.59.02:183][329]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
-[2020.01.31-13.59.02:183][329]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
-[2020.01.31-13.59.02:183][329]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128)
-[2020.01.31-13.59.02:183][329]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
-[2020.01.31-13.59.02:183][329]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
-[2020.01.31-13.59.02:183][329]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 256X128)
-[2020.01.31-13.59.02:184][329]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 64X32)
-[2020.01.31-13.59.02:184][329]LogTexture: Display: Building textures: UE4Man_Logo_N (BC5, 512X512)
-[2020.01.31-13.59.02:184][329]LogTexture: Display: Building textures: UE4_Mannequin_occlusion (AutoDXT, 512X512)
-[2020.01.31-13.59.02:184][329]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Deaths/Animation/Deaths_Hit_Head_Spinning.Deaths_Hit_Head_Spinning
-[2020.01.31-13.59.02:199][329]LogAnimationCompression: Recompressing (AnimSequence /Game/Deaths/Animation/Deaths_Hit_Head_Spinning.Deaths_Hit_Head_Spinning) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2020.01.31-13.59.02:522][329]LogTexture: Display: Building textures: UE4_Mannequin__normals (BC5, 2048X2048)
-[2020.01.31-13.59.02:522][329]LogTexture: Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT, 1024X1024)
-[2020.01.31-13.59.02:566][329]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_D (AutoDXT, 512X512)
-[2020.01.31-13.59.03:097][329]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_N (BC5, 512X512)
-[2020.01.31-13.59.03:097][329]LogTexture: Display: Building textures: T_ML_Aluminum01_N (BC5, 512X512)
-[2020.01.31-13.59.03:097][329]LogTexture: Display: Building textures: T_ML_Aluminum01 (AutoDXT, 512X512)
-[2020.01.31-13.59.03:320][329]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
-[2020.01.31-13.59.03:578][329]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 125
-[2020.01.31-13.59.03:578][329]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 115
-[2020.01.31-13.59.03:578][329]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 105
-[2020.01.31-13.59.03:578][329]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
-[2020.01.31-13.59.03:636][329]LogSkeletalMesh: Building Skeletal Mesh SK_Mannequin...
-[2020.01.31-13.59.03:744][329]LogSkeletalMesh: Built Skeletal Mesh [0.11s] /Game/Deaths/Character/Mesh/SK_Mannequin.SK_Mannequin
-[2020.01.31-13.59.03:754][329]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Deaths/Animation/Deaths_Shoulder_Crawl.Deaths_Shoulder_Crawl
-[2020.01.31-13.59.03:754][329]LogAnimationCompression: Recompressing (AnimSequence /Game/Deaths/Animation/Deaths_Shoulder_Crawl.Deaths_Shoulder_Crawl) using current/default (AnimCompress_BitwiseCompressOnly_15) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2020.01.31-13.59.03:766][329]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Deaths/Animation/Deaths_Hit_Slow_Bleedout.Deaths_Hit_Slow_Bleedout
-[2020.01.31-13.59.03:766][329]LogAnimationCompression: Recompressing (AnimSequence /Game/Deaths/Animation/Deaths_Hit_Slow_Bleedout.Deaths_Hit_Slow_Bleedout) using current/default (AnimCompress_BitwiseCompressOnly_8) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2020.01.31-13.59.03:831][329]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Deaths/Animation/Deaths_Hit_Left_Chest_Head.Deaths_Hit_Left_Chest_Head
-[2020.01.31-13.59.03:831][329]LogAnimationCompression: Recompressing (AnimSequence /Game/Deaths/Animation/Deaths_Hit_Left_Chest_Head.Deaths_Hit_Left_Chest_Head) using current/default (AnimCompress_BitwiseCompressOnly_5) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2020.01.31-13.59.03:860][329]LogAIModule: Creating AISystem for world Overview_Deaths
-[2020.01.31-13.59.03:871][329]LogActorComponent: RegisterComponentWithWorld: (/Game/Deaths/Overview_Deaths.Overview_Deaths:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2020.01.31-13.59.04:045][329]LogAssetEditorManager: Opening Asset editor for World /Game/Deaths/Overview_Deaths.Overview_Deaths
-[2020.01.31-13.59.04:173][329]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
-[2020.01.31-13.59.04:307][329]LightingResults: New page: Lighting Build
-[2020.01.31-13.59.04:309][329]LoadErrors: New page: Loading map: Overview_Deaths.umap
-[2020.01.31-13.59.04:309][329]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2020.01.31-13.59.04:310][329]MapCheck: New page: Map Check
-[2020.01.31-13.59.04:310][329]LightingResults: New page: Lighting Build
-[2020.01.31-13.59.04:346][329]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
-[2020.01.31-13.59.05:287][329]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.01.31-13.59.05:330][329]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
-[2020.01.31-13.59.05:409][329]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.01.31-13.59.05:410][329]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.19ms to complete.
-[2020.01.31-13.59.05:410][329]LogFileHelpers: Loading map 'Overview_Deaths' took 1.236
-[2020.01.31-13.59.11:879][617]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 220
-[2020.01.31-13.59.12:288][629]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 210
-[2020.01.31-13.59.12:728][644]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 200
-[2020.01.31-13.59.18:473][952]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 190
-[2020.01.31-13.59.19:842][ 30]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 180
-[2020.01.31-13.59.23:252][221]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 170
-[2020.01.31-13.59.24:686][271]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 160
-[2020.01.31-13.59.30:428][476]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 150
-[2020.01.31-13.59.31:093][497]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 140
-[2020.01.31-13.59.31:258][503]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 130
-[2020.01.31-13.59.36:534][729]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 120
-[2020.01.31-13.59.38:501][807]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 110
-[2020.01.31-13.59.40:864][893]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 100
-[2020.01.31-13.59.43:422][994]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 90
-[2020.01.31-13.59.46:040][101]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 80
-[2020.01.31-13.59.50:524][271]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 70
-[2020.01.31-13.59.51:607][321]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 60
-[2020.01.31-13.59.54:252][469]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 50
-[2020.01.31-13.59.57:060][612]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 40
-[2020.01.31-13.59.59:219][710]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
-[2020.01.31-14.00.02:515][845]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
-[2020.01.31-14.00.04:336][917]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 13
-[2020.01.31-14.00.05:861][975]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
-[2020.01.31-14.00.07:563][ 46]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
-[2020.01.31-14.00.08:869][110]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
-[2020.01.31-14.00.09:830][147]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
-[2020.01.31-14.00.14:741][330]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin10)
-[2020.01.31-14.00.15:784][330]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin10)
-[2020.01.31-14.00.31:561][791]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.31-14.00.31:812][796]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Deaths/Animation/Deaths_Hit_Slow_Bleedout.Deaths_Hit_Slow_Bleedout
-[2020.01.31-14.00.31:955][796]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0024 seconds. Added 1 classes and 2 folders.
-[2020.01.31-14.00.32:981][796]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2020.01.31-14.00.33:031][796]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0011 seconds. Added 1 classes and 0 folders.
-[2020.01.31-14.00.33:522][796]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2020.01.31-14.00.34:714][796]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2020.01.31-14.01.01:506][978]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.31-14.01.01:651][982]LogSlate: Window 'Deaths_Hit_Slow_Bleedout' being destroyed
-[2020.01.31-14.01.01:662][982]LogSlate: Window 'Deaths_Hit_Slow_Bleedout' being destroyed
-[2020.01.31-14.01.01:664][982]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
-[2020.01.31-14.01.01:797][982]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
-[2020.01.31-14.01.02:021][982]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
-[2020.01.31-14.01.03:253][ 49]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin12)
-[2020.01.31-14.01.06:704][219]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.31-14.01.06:973][222]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Deaths/Animation/Deaths_Hit_Head_Spinning.Deaths_Hit_Head_Spinning
-[2020.01.31-14.01.07:034][222]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2020.01.31-14.01.07:099][222]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2020.01.31-14.01.07:670][222]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2020.01.31-14.01.15:096][545]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.31-14.01.15:163][548]LogSlate: Window 'Deaths_Hit_Head_Spinning' being destroyed
-[2020.01.31-14.01.15:189][548]LogSlate: Window 'Deaths_Hit_Head_Spinning' being destroyed
-[2020.01.31-14.01.15:191][548]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
-[2020.01.31-14.01.15:249][548]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
-[2020.01.31-14.01.15:377][548]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
-[2020.01.31-14.01.16:548][612]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin13)
-[2020.01.31-14.01.18:216][680]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.31-14.01.22:467][785]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Deaths/Animation/Deaths_Hit_Left_Chest_Head.Deaths_Hit_Left_Chest_Head
-[2020.01.31-14.01.22:531][785]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2020.01.31-14.01.22:629][785]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2020.01.31-14.01.23:221][785]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2020.01.31-14.01.34:113][274]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.31-14.01.34:267][281]LogSlate: Window 'Deaths_Hit_Left_Chest_Head' being destroyed
-[2020.01.31-14.01.34:293][281]LogSlate: Window 'Deaths_Hit_Left_Chest_Head' being destroyed
-[2020.01.31-14.01.34:294][281]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
-[2020.01.31-14.01.34:346][281]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
-[2020.01.31-14.01.34:466][281]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
-[2020.01.31-14.01.35:693][338]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin)
-[2020.01.31-14.01.36:111][356]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (SkeletalMeshComponent0)
-[2020.01.31-14.01.36:422][371]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (SkeletalMeshComponent0)
-[2020.01.31-14.01.37:297][420]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (SkeletalMeshComponent0)
-[2020.01.31-14.01.37:423][424]LogEditorViewport: Clicking on Actor (double click): SkeletalMeshActor (SK_Mannequin)
-[2020.01.31-14.01.38:949][491]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.31-14.01.39:160][496]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Deaths/Animation/Deaths_Hit_Left_Chest_Head.Deaths_Hit_Left_Chest_Head
-[2020.01.31-14.01.39:227][496]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2020.01.31-14.01.39:298][496]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2020.01.31-14.01.39:900][496]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2020.01.31-14.01.45:830][768]LogSlate: Window 'Deaths_Hit_Left_Chest_Head' being destroyed
-[2020.01.31-14.01.45:856][768]LogSlate: Window 'Deaths_Hit_Left_Chest_Head' being destroyed
-[2020.01.31-14.01.45:856][768]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
-[2020.01.31-14.01.45:907][768]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
-[2020.01.31-14.01.46:030][768]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
-[2020.01.31-14.01.48:018][878]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin13)
-[2020.01.31-14.01.50:498][ 21]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin)
-[2020.01.31-14.01.52:445][132]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin13)
-[2020.01.31-14.01.54:529][251]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin14)
-[2020.01.31-14.01.56:246][310]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.31-14.01.58:351][362]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Deaths/Animation/Deaths_Shoulder_Crawl.Deaths_Shoulder_Crawl
-[2020.01.31-14.01.58:445][362]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2020.01.31-14.01.58:545][362]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2020.01.31-14.01.59:170][362]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2020.01.31-14.02.16:711][ 50]LogSlate: Window 'Deaths_Shoulder_Crawl' being destroyed
-[2020.01.31-14.02.16:737][ 50]LogSlate: Window 'Deaths_Shoulder_Crawl' being destroyed
-[2020.01.31-14.02.16:737][ 50]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
-[2020.01.31-14.02.16:795][ 50]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
-[2020.01.31-14.02.16:937][ 50]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
-[2020.01.31-14.02.20:684][260]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin)
-[2020.01.31-14.02.21:770][318]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin13)
-[2020.01.31-14.04.29:854][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.31-14.04.39:026][656]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2020.01.31-14.04.42:146][774]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2020.01.31-14.04.44:707][874]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2020.01.31-14.04.50:481][ 53]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
-[2020.01.31-14.04.50:529][ 54]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 43
-[2020.01.31-14.04.50:529][ 54]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 33
-[2020.01.31-14.04.50:529][ 54]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 23
-[2020.01.31-14.04.50:545][ 54]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
-[2020.01.31-14.04.50:659][ 55]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
-[2020.01.31-14.04.50:732][ 56]LogMaterial: Display: Missing cached shader map for material Material_3, compiling. 
-[2020.01.31-14.04.58:767][276]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 142
-[2020.01.31-14.04.58:782][276]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 132
-[2020.01.31-14.04.59:903][327]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 122
-[2020.01.31-14.05.06:641][667]LogMaterial: Display: Missing cached shader map for material UE4_Mannequin_occlusion_Mat, compiling. 
-[2020.01.31-14.05.06:717][667]LogMaterial: Display: Material /Game/Deaths/Character/Textures/UE4_Mannequin_occlusion_Mat.UE4_Mannequin_occlusion_Mat needed to have new flag set bUsedWithStaticLighting !
-[2020.01.31-14.05.06:748][667]LogMaterial: Display: Missing cached shader map for material UE4_Mannequin_occlusion_Mat, compiling. 
-[2020.01.31-14.05.07:957][725]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 165
-[2020.01.31-14.05.08:623][753]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.31-14.05.09:944][806]LogUObjectHash: Compacting FUObjectHashTables data took   5.79ms
-[2020.01.31-14.05.10:448][806]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 155
-[2020.01.31-14.05.11:812][806]LogSlate: Window 'Delete Assets' being destroyed
-[2020.01.31-14.05.15:346][806]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 145
-[2020.01.31-14.05.15:346][806]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 135
-[2020.01.31-14.05.15:346][806]LogUObjectGlobals: Force Deleting 1 Package(s):
-	Asset Name: /Game/Deaths/Character/Textures/UE4_Mannequin_occlusion_Mat.UE4_Mannequin_occlusion_Mat
-[2020.01.31-14.05.15:360][806]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2020.01.31-14.05.18:568][806]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 125
-[2020.01.31-14.05.18:861][806]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 115
-[2020.01.31-14.05.19:141][806]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 105
-[2020.01.31-14.05.20:158][806]LogPhysics: Error: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Deaths/Overview_Deaths.Overview_Deaths:PersistentLevel.ModelComponent_11, Buffer: 0, Index Count: 0, Element: 0
-[2020.01.31-14.05.20:159][806]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Deaths/Overview_Deaths.Overview_Deaths:PersistentLevel.ModelComponent_11' invalid (24 verts, 0 indices).
-[2020.01.31-14.05.20:159][806]LogPhysics: Warning: Attempt to build physics data for /Game/Deaths/Overview_Deaths.Overview_Deaths:PersistentLevel.ModelComponent_11.BodySetup_33 when we are unable to.
-[2020.01.31-14.05.20:634][806]LogUObjectHash: Compacting FUObjectHashTables data took   6.58ms
-[2020.01.31-14.05.23:772][917]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 95
-[2020.01.31-14.05.28:676][987]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 85
-[2020.01.31-14.05.29:221][998]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 75
-[2020.01.31-14.05.31:206][ 25]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 65
-[2020.01.31-14.05.36:445][ 92]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 55
-[2020.01.31-14.05.38:495][124]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 45
-[2020.01.31-14.05.42:099][195]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 35
-[2020.01.31-14.05.42:996][207]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 25
-[2020.01.31-14.05.48:802][297]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 16
-[2020.01.31-14.05.50:074][320]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
-[2020.01.31-14.05.52:422][365]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
-[2020.01.31-14.05.56:513][416]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
-[2020.01.31-14.05.57:215][429]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.01.31-18.47.21:736][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.01.31-18.47.21:736][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.01.31-18.47.21:736][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Engine.ini]
+[2020.01.31-18.47.21:736][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.01.31-18.47.21:736][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Engine.ini]
+[2020.01.31-18.47.21:736][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Engine.ini]
+[2020.01.31-18.47.21:736][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.01.31-18.47.21:736][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.01.31-18.47.21:736][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.01.31-18.47.21:736][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.01.31-18.47.21:736][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.01.31-18.47.21:736][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.01.31-18.47.21:736][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.01.31-18.47.21:736][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.01.31-18.47.21:736][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.01.31-18.47.21:736][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.01.31-18.47.21:736][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.01.31-18.47.21:736][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.01.31-18.47.21:736][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.01.31-18.47.21:736][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Engine.ini]
+[2020.01.31-18.47.21:736][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.01.31-18.47.21:736][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.01.31-18.47.21:737][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.01.31-18.47.21:737][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.01.31-18.47.21:737][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.01.31-18.47.21:737][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.01.31-18.47.21:737][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.01.31-18.47.21:737][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.01.31-18.47.21:737][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.01.31-18.47.21:737][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.01.31-18.47.21:737][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.01.31-18.47.21:737][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.01.31-18.47.21:737][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.01.31-18.47.21:737][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Engine.ini]
+[2020.01.31-18.47.21:737][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Engine.ini]
+[2020.01.31-18.47.21:739][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.01.31-18.47.21:739][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.01.31-18.47.21:740][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.01.31-18.47.21:740][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.31-18.47.21:740][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.01.31-18.47.21:744][  0]LogHAL: Display: Platform has ~ 8 GB [8399994880 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.01.31-18.47.21:744][  0]LogInit: Going up to parent DeviceProfile []
+[2020.01.31-18.47.21:744][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.01.31-18.47.21:744][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Scalability.ini]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.01.31-18.47.21:745][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Config/Windows/Engine.ini]
+[2020.01.31-18.47.21:745][  0]LogInit: Computer: BA-PK1216R
+[2020.01.31-18.47.21:745][  0]LogInit: User: IanStJohn
+[2020.01.31-18.47.21:745][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.01.31-18.47.21:745][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.01.31-18.47.21:746][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2020.01.31-18.47.21:746][  0]LogMemory: Platform Memory Stats for Windows
+[2020.01.31-18.47.21:746][  0]LogMemory: Process Physical Memory: 100.44 MB used, 100.44 MB peak
+[2020.01.31-18.47.21:746][  0]LogMemory: Process Virtual Memory: 87.78 MB used, 87.78 MB peak
+[2020.01.31-18.47.21:746][  0]LogMemory: Physical Memory: 4480.95 MB used,  3529.91 MB free, 8010.86 MB total
+[2020.01.31-18.47.21:746][  0]LogMemory: Virtual Memory: 4639.56 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2020.01.31-18.47.21:748][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.01.31-18.47.21:770][  0]LogInit: Using OS detected language (en-US).
+[2020.01.31-18.47.21:771][  0]LogInit: Using OS detected locale (en-US).
+[2020.01.31-18.47.21:771][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.01.31-18.47.22:063][  0]LogInit: Setting process to per monitor DPI aware
+[2020.01.31-18.47.22:104][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.01.31-18.47.22:104][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.01.31-18.47.22:418][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.31-18.47.22:418][  0]LogD3D11RHI: D3D11 adapters:
+[2020.01.31-18.47.22:493][  0]LogD3D11RHI:    0. 'NVIDIA NVS 5400M' (Feature Level 11_0)
+[2020.01.31-18.47.22:493][  0]LogD3D11RHI:       979/0/4005 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.01.31-18.47.22:500][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2020.01.31-18.47.22:500][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.01.31-18.47.22:503][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.01.31-18.47.22:503][  0]LogD3D11RHI:       0/0/4005 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.01.31-18.47.22:503][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.01.31-18.47.22:535][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.01.31-18.47.22:536][  0]LogD3D11RHI:     GPU DeviceId: 0xdef (for the marketing name, search the web for "GPU Device Id")
+[2020.01.31-18.47.22:536][  0]LogWindows: EnumDisplayDevices:
+[2020.01.31-18.47.22:536][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2020.01.31-18.47.22:537][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2020.01.31-18.47.22:538][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2020.01.31-18.47.22:538][  0]LogWindows:    3. 'NVIDIA NVS 5400M' (P:0 D:0)
+[2020.01.31-18.47.22:539][  0]LogWindows:    4. 'NVIDIA NVS 5400M' (P:0 D:0)
+[2020.01.31-18.47.22:539][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
+[2020.01.31-18.47.22:539][  0]LogD3D11RHI:     Adapter Name: NVIDIA NVS 5400M
+[2020.01.31-18.47.22:539][  0]LogD3D11RHI:   Driver Version: 389.08 (internal:23.21.13.8908, unified:389.08)
+[2020.01.31-18.47.22:540][  0]LogD3D11RHI:      Driver Date: 2-27-2018
+[2020.01.31-18.47.22:540][  0]LogRHI: Texture pool is 685 MB (70% of 979 MB)
+[2020.01.31-18.47.22:605][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2020.01.31-18.47.22:605][  0]LogD3D11RHI: Async texture creation enabled
+[2020.01.31-18.47.22:622][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.01.31-18.47.23:003][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.01.31-18.47.23:016][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.01.31-18.47.23:027][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.01.31-18.47.23:041][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.01.31-18.47.23:053][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.01.31-18.47.23:064][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.01.31-18.47.23:075][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.01.31-18.47.23:086][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.01.31-18.47.23:091][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.01.31-18.47.23:128][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.01.31-18.47.23:128][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.01.31-18.47.23:128][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.01.31-18.47.23:128][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.01.31-18.47.23:128][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.01.31-18.47.23:128][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.01.31-18.47.23:128][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.01.31-18.47.23:128][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.01.31-18.47.23:128][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.01.31-18.47.23:128][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.01.31-18.47.23:128][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.01.31-18.47.23:128][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.01.31-18.47.23:128][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.01.31-18.47.23:128][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.01.31-18.47.23:128][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.01.31-18.47.23:128][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.01.31-18.47.23:128][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.01.31-18.47.23:128][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.01.31-18.47.23:130][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.01.31-18.47.23:151][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.01.31-18.47.23:151][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.01.31-18.47.23:167][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.01.31-18.47.23:167][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.01.31-18.47.23:176][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.01.31-18.47.23:184][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.01.31-18.47.23:192][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.01.31-18.47.23:202][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.01.31-18.47.23:230][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.01.31-18.47.23:231][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.01.31-18.47.23:231][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.01.31-18.47.23:242][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.01.31-18.47.23:303][  0]LogShaderCompilers: Guid format shader working directory is -59 characters bigger than the processId version (../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Intermediate/Shaders/WorkingDirectory/18096/).
+[2020.01.31-18.47.23:304][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/IanStJohn/AppData/Local/Temp/UnrealShaderWorkingDir/4EE826B646318BC8B44063B7B1CA3491/'.
+[2020.01.31-18.47.23:307][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.01.31-18.47.23:307][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.01.31-18.47.23:307][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.01.31-18.47.24:007][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.01.31-18.47.24:075][  0]LogDerivedDataCache: Loaded boot cache 0.07s 73MB C:/Users/IanStJohn/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.01.31-18.47.24:075][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/IanStJohn/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2020.01.31-18.47.24:075][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.01.31-18.47.24:075][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.01.31-18.47.24:075][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.31-18.47.24:075][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.01.31-18.47.24:087][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.01.31-18.47.24:087][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.31-18.47.24:087][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.01.31-18.47.24:089][  0]LogDerivedDataCache: Using Local data cache path C:/Users/IanStJohn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.01.31-18.47.24:089][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.01.31-18.47.24:089][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.01.31-18.47.24:116][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.01.31-18.47.24:119][  0]LogSlate: Using FreeType 2.6.0
+[2020.01.31-18.47.24:120][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.31-18.47.24:181][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2020.01.31-18.47.24:565][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.31-18.47.24:623][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.01.31-18.47.24:623][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.01.31-18.47.24:623][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.01.31-18.47.24:623][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.01.31-18.47.24:623][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.01.31-18.47.24:759][  0]LogNetVersion: NiteOfTheLivingDead 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 3089816996)
+[2020.01.31-18.47.25:268][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.069987 seconds
+[2020.01.31-18.47.25:276][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2020.01.31-18.47.25:276][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2020.01.31-18.47.25:276][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.01.31-18.47.26:217][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.01.31-18.47.26:220][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.01.31-18.47.26:281][  0]SourceControl: Source control is disabled
+[2020.01.31-18.47.26:281][  0]SourceControl: Source control is disabled
+[2020.01.31-18.47.26:283][  0]SourceControl: Source control is disabled
+[2020.01.31-18.47.26:284][  0]SourceControl: Source control is disabled
+[2020.01.31-18.47.26:383][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.01.31-18.47.26:488][  0]LogOcInput: OculusInput pre-init called
+[2020.01.31-18.47.26:496][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.01.31-18.47.26:496][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.01.31-18.47.26:580][  0]LogEngine: Initializing Engine...
+[2020.01.31-18.47.26:581][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.31-18.47.26:582][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.01.31-18.47.26:855][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.01.31-18.47.26:884][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.01.31-18.47.26:896][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.31-18.47.26:947][  0]LogInit: FAudioDevice initialized.
+[2020.01.31-18.47.26:947][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.01.31-18.47.29:385][  0]LogDerivedDataCache: Saved boot cache 2.44s 73MB C:/Users/IanStJohn/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.01.31-18.47.29:390][  0]LogInit: Texture streaming: Enabled
+[2020.01.31-18.47.29:416][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.01.31-18.47.29:416][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.01.31-18.47.29:417][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.01.31-18.47.29:512][  0]LogInit: Transaction tracking system initialized
+[2020.01.31-18.47.29:565][  0]BlueprintLog: New page: Editor Load
+[2020.01.31-18.47.29:663][  0]LocalizationService: Localization service is disabled
+[2020.01.31-18.47.30:059][  0]LogFileCache: Scanning file cache for directory 'C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Content/' took 0.02s
+[2020.01.31-18.47.30:059][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.01.31-18.47.30:060][  0]LogCook: Display: Mobile HDR setting 1
+[2020.01.31-18.47.30:310][  0]SourceControl: Source control is disabled
+[2020.01.31-18.47.30:429][  0]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.31-18.47.49:135][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2020.01.31-18.47.49:136][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.01.31-18.47.49:138][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.01.31-18.47.49:145][  0]LightingResults: New page: Lighting Build
+[2020.01.31-18.47.49:151][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.01.31-18.47.49:152][  0]MapCheck: New page: Map Check
+[2020.01.31-18.47.49:152][  0]LightingResults: New page: Lighting Build
+[2020.01.31-18.47.49:186][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2020.01.31-18.47.50:866][  0]LogClass: Warning: Enum '/Game/InventorySystem/Blueprints/Inventory/EquipmentSlots.EquipmentSlots' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2020.01.31-18.47.51:018][  0]LogClass: Warning: Enum '/Game/InventorySystem/Blueprints/Inventory/ItemQuality.ItemQuality' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2020.01.31-18.47.51:112][  0]LogClass: Warning: Enum '/Game/InventorySystem/Blueprints/Inventory/EquipmentType.EquipmentType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2020.01.31-18.47.54:041][  0]LogClass: Warning: Enum '/Game/InventorySystem/Blueprints/Inventory/ItemType.ItemType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2020.01.31-18.47.54:251][  0]LogBlueprint: Warning: [Compiler InventoryManagerComponent] Add Torque : Usage of 'Add Torque' has been deprecated. Use AddTorqueInRadians instead
+[2020.01.31-18.47.54:740][  0]LogLinker: Warning: While loading '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.01.31-18.47.54:741][  0]LogLinker: Warning: While loading '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.01.31-18.47.54:906][  0]LogLinker: Warning: While loading '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.01.31-18.47.54:906][  0]LogLinker: Warning: While loading '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.01.31-18.47.54:910][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.01.31-18.47.54:911][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.01.31-18.47.54:911][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.01.31-18.47.54:911][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.01.31-18.47.55:244][  0]LogLinker: Warning: While loading '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.01.31-18.47.55:244][  0]LoadErrors: Failed to load /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2020.01.31-18.47.55:244][  0]LogLinker: Warning: While loading '../../../../Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.01.31-18.47.55:245][  0]LoadErrors: Failed to load /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2020.01.31-18.47.57:254][  0]LogClass: Warning: Enum '/Game/InventorySystem/Blueprints/Inventory/EquipmentSlotType.EquipmentSlotType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2020.01.31-18.48.02:841][  0]LogClass: Warning: Enum '/Game/InventorySystem/Blueprints/Demo/Classes.Classes' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2020.01.31-18.48.03:125][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.01.31-18.48.03:140][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.01.31-18.48.03:239][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.87ms
+[2020.01.31-18.48.03:240][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.31-18.48.03:241][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.317ms to complete.
+[2020.01.31-18.48.03:242][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 14.098
+[2020.01.31-18.48.03:445][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.31-18.48.03:457][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.31-18.48.03:471][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.31-18.48.03:487][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.31-18.48.03:517][  0]LogCollectionManager: Loaded 0 collections in 0.003625 seconds
+[2020.01.31-18.48.03:528][  0]LogFileCache: Scanning file cache for directory 'C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Saved/Collections/' took 0.00s
+[2020.01.31-18.48.03:528][  0]LogFileCache: Scanning file cache for directory 'C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Content/Developers/IanStJohn/Collections/' took 0.00s
+[2020.01.31-18.48.03:528][  0]LogFileCache: Scanning file cache for directory 'C:/Users/IanStJohn/Documents/GitHub/Nite-Of-The-Living-Dead/NiteOfTheLivingDead/NiteOfTheLivingDead/Content/Collections/' took 0.00s
+[2020.01.31-18.48.03:528][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2020.01.31-18.48.03:542][  0]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 2864 classes and 682 folders.
+[2020.01.31-18.48.03:551][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.01.31-18.48.05:595][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2020.01.31-18.48.05:648][  0]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.01.31-18.48.05:670][  0]LogSlate: Took 0.019184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.01.31-18.48.05:930][  0]LogRenderer: Reallocating scene render targets to support 896x504 Format 10 NumSamples 1 (Frame:1).
+[2020.01.31-18.48.06:096][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2020.01.31-18.48.06:096][  0]LogLoad: (Engine Initialization) Total time: 46.00 seconds
+[2020.01.31-18.48.06:096][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.01.31-18.48.06:176][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.01.31-18.48.06:178][  0]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.31-18.48.06:260][  0]LogSlate: Took 0.035229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.01.31-18.48.07:256][  7]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.01.31-18.48.07:797][ 15]LogAssetRegistry: Asset discovery search completed in 43.6169 seconds
+[2020.01.31-18.48.07:804][ 15]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000012 seconds (found 0 objects)
+[2020.01.31-18.48.07:804][ 15]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000103 seconds (updated 0 objects)
+[2020.01.31-18.48.12:339][284]LogSlate: Window 'Message Log' being destroyed
+[2020.01.31-18.48.12:346][284]LogSlate: Window 'Message Log' being destroyed
